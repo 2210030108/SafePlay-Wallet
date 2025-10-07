@@ -1,0 +1,17 @@
+{
+  "name": "safeplay-backend",
+  "version": "0.1.0",
+  "description": "Backend API skeleton for SafePlay Wallet",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

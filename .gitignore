@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# React Native / Expo
+.expo/
+.expo-shared/
+*.expo
+*.expo.ts
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Build outputs
+backend/dist/
+mobile-app/android/
+mobile-app/ios/
+
+# Cairo / Starknet
+.cairo
+starknet-artifacts/
+build/
